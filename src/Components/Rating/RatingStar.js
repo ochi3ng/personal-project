@@ -6,12 +6,12 @@ import { AiOutlineHeart } from 'react-icons/ai';
 import { AiFillDiff} from 'react-icons/ai';
 import {CiSquarePlus} from 'react-icons/ci';
 
-const RatingStar = () => {
-  const [openModal, setOpenModal]= useState(false)
+const RatingStar = ({setOpenModal}) => {
+ 
   console.log(setOpenModal)
     return (
       <div className='iconci'>
-      <CiSquarePlus className='iconci' onClick={() =>setOpenModal(true)}/> 
+      <CiSquarePlus className='iconci' onClick={() =>setOpenModal(prev=>!prev)}/> 
       <AiFillDiff className='iconci'/>
       <AiOutlineHeart className='iconci'/>
       <AiOutlineRetweet className='iconci'/>

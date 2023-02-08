@@ -1,48 +1,22 @@
 .header{
     display: flex;
     justify-content:space-around;
-   padding-left:30px ;
-
-flex-wrap: wrap;
+    padding-left:30px ;
+    flex-wrap: wrap;
   }
-  /* .header {
-  animation-duration: 20s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  } */
 .images-wooden {
-  border-style: solid;
-  border-width: 1px;
   display: block;
   width: 200px;
   height: 200px;
-  background-color: #0000ff;
   transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
 .images-wooden:hover {
-  background-color: #ffcccc;
-  width: 400px;
-  height: 400px;
+  background-color: #ffcccc
 }
 .h1{
   text-align: center;  
 }
-/* .datafetch{
-    height: 200px;
-   
-} */
-
 .images-wooden{
   
     position: relative;
@@ -50,12 +24,6 @@ flex-wrap: wrap;
     cursor: pointer;
     position:relative;
   }
-  .images-wooden:hover{
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-  }
- 
   .title-price{
     text-align: center;
   }
@@ -66,7 +34,18 @@ flex-wrap: wrap;
   .innerdiv{
     display: flex;
     height: 200px;
-    background-color: gray;
+    background-color:whitesmoke;
   }
- 
+  .ratingstar{
+    display: flex;
+    justify-content: center;
+   margin: 0;
+   padding-top: 0.25rem;
+  }
+  .data-header{
+    margin: auto;
   
+    width: 100%;
+    max-width: 1000px;
+    background-color:whitesmoke;
+  }
