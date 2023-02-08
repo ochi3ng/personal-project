@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": true,
+    "diffEditor.maxComputationTime": 1,
+    "diffEditor.diffAlgorithm": "experimental",
+    "diffEditor.codeLens": true,
+    "diffEditor.wordWrap": "on",
+    "editor.minimap.scale": 2
+}

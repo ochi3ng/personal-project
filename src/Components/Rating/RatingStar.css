@@ -1,0 +1,13 @@
+  .iconci{
+    height: 50px;
+    width: 40px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 40px;
+  }
+  .iconci:hover{
+    background-color: red;
+  }
+  .ratings{
+    position:absolute ;
+  }
